@@ -1,0 +1,24 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+
+# Large Language Model interaction
+anthropic # This assumes an Anthropic Python client; replace with actual package if named differently.
+
+# For retrieval-augmented generation and similarity search (if using embeddings)
+faiss-cpu  # or faiss-gpu if using GPU support
+scikit-learn  # for vector operations and cosine similarity
+transformers  # if using Hugging Face transformers
+
+# Additional utilities
+tqdm  # for progress bars
+requests  # for API requests, if applicable
+
+# Optional: Environment management
+python-dotenv  # for managing environment variables, e.g., API keys
